@@ -4,58 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1 id="inicio">O que entendi sobre o HTML?</h1>
     <hr />
 
     <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#para-que">Para que serve o HTML?</a></li>
+        <li><a href="#as-tags">As <strong>TAGS</strong></a></li>
+        <li><a href="#as-listas">Listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="para-que">Para que serve o HTML?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>O HTML, ou <strong><i>HyperText Markup Language — Linguagem de Marcação de Hipertexto</i></strong> não é uma linguagem de programação; é uma linguagem de marcação, usada para definir a estrutura do seu conteúdo. 
+      HTML consiste de uma série de elementos, que você usa para delimitar ou agrupar diferentes partes do conteúdo para que ele 
+      apareça ou atue de determinada maneira. As tags anexas podem transformar uma palavra ou imagem num hiperlink, pode colocar palavras 
+      em itálico, pode aumentar ou diminuir a fonte e assim por diante. Veja mais sobre o assunto clicando 
+      <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" title="Acesse já" target="_blank">aqui</a>.</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="as-tags">O que são <i>TAGS</i>?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>No HTML a tag é usada para criar um elemento. O nome de um elemento HTML é o nome usado entre colchetes angulares como "< i >" 
+      para deixar o texto em <i>itálico</i>. Note que ao fechar uma tag ela tem uma barra antes de seu nome, "< / i >". 
+      Em algumas tags, o fechamento delas não é necessário, fazendo parte da sintaxe delas mesmas.</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="as-listas">Listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>As listas <strong>ordenadas</strong> são as listas que contém uma sequência numérica dos itens listados, onde você define a sequência utilizada.
+      Como por exemplo:</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+      <p>Top 3 comidas brabas:</p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+      <ol>
+         <li>Arroz</li>
+         <li>Feijão</li>
+         <li>Carne</li>
+      </ol>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <p>Já as listas <strong>não ordenadas</strong> são as listas que citam alguns itens, mas não necessáriamente precisam de uma sequência.
+      Como por exemplo:</p>
+   
+         <p>Lista de compras:</p>
+   
+         <ul>
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Carne</li>
+         </ul> 
+
+    <h2 id="referencias">Links de referências</h2>
+    <small><a href="#inicio">Voltar</a></small>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" title="Acesse aqui" target="_blank">Básico sobre HTML</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Tag" target="_blank" title="Veja aqui sobre as tags">Tags</a></li>
     </ul>
 
 </body>
